@@ -1,9 +1,27 @@
-
-
 body {
- font-family: 'Heebo', sans-serif;
+  font-family: "Poppins", sans-serif;
+  background:  #f0f0f0;
 }
 
 h1 {
   width: fit-content;
+}
+
+.about-title {
+  width: 80%;
+}
+
+.hi {
+  font-family: "East Sea Dokdo", cursive;
+  font-size: 10rem;
+  margin-bottom: -60px;
+}
+.skill-set {
+  line-height: 3.5rem;
+}
+
+.skill-set span {
+  margin-right: 0.8em;
+  border-radius: 8px;
+ 
 }
