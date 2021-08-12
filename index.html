@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Aditya Jangra - Cips</title>
+		<link
+			href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+			integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap"
+			rel="stylesheet"
+		/>
+		<style>
+			body {
+				/* font-family: "Poppins", sans-serif; */
+				font-family: "Architects Daughter", cursive;
+				-webkit-font-smoothing: antialiased;
+			}
+			.whatsapp {
+				position: fixed;
+				bottom: 20px;
+				right: 30px;
+			}
+			.call {
+				position: fixed;
+				bottom: 20px;
+				right: 100px;
+			}
+			.email {
+				position: fixed;
+				bottom: 20px;
+				right: 175px;
+			}
+			.info {
+				background: linear-gradient(to right, indigo, rgb(33, 36, 240));
+			}
+			.services span {
+				margin-bottom: 1em;
+				padding: 1em 2em;
+
+				background: white;
+			}
+
+			.container {
+				max-width: 720px;
+				width: 90%;
+			}
+
+			.web-dev {
+				font-family: "Architects Daughter", cursive;
+			}
+
+			.title {
+				transform: rotate(90deg);
+			}
+
+			.bg-main {
+				background: #111;
+			}
+
+			.leading-x {
+				line-height: 2.5rem;
+			}
+
+			.lined-thin {
+        border:solid 2px #111;
+				border-top-left-radius: 255px 15px;
+				border-top-right-radius: 15px 225px;
+				border-bottom-right-radius: 225px 15px;
+				border-bottom-left-radius: 15px 255px;
+			}
+
+			@media screen and (max-width: 520px) {
+				.services span {
+					font-size: 1.2rem;
+					margin: 0.3em;
+					width: 100%;
+					text-align: center;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<section class="whatsapp">
+			<button
+				class="lined-thin text-2xl px-4 py-2 bg-white"
+			>
+				<a href="https://wa.me/9999618621"><i class="fab fa-whatsapp"></i></a>
+			</button>
+		</section>
+		<section class="call">
+			<button
+				class="lined-thin text-2xl px-4 py-2 bg-white"
+			>
+				<a href="tel:9999618621"><i class="fas fa-phone"></i></a>
+			</button>
+		</section>
+		<section class="email">
+			<button
+				class="lined-thin text-2xl px-4 py-2 bg-white"
+			>
+				<a href="mailto:aditya.professionaljangra@gmail.com"
+					><i class="fas fa-envelope"></i
+				></a>
+			</button>
+		</section>
+		<section class="py-8 px-4 bg-main text-white h-screen flex">
+			<div class="container mx-auto">
+				<div class="text-left mx-2">
+					<div>
+						<div class="leading-0">
+							<h2 class="text-5xl font-bold md:text-9xl md:-mb-7 sm:-mb-3">
+								Hello, i'm
+							</h2>
+							<h2 class="text-5xl font-bold sm:text-8xl md:text-9xl">
+								PARSHANT
+							</h2>
+						</div>
+						<p
+							class="
+								web-dev
+								text-black
+								bg-white
+								md:py-3
+								text-center
+								py-1
+								text-2xl
+								md:text-6xl
+							"
+						>
+							a web developer
+						</p>
+					</div>
+					<i class="fas fa-chevron-down text-3xl mt-12"></i>
+				</div>
+			</div>
+		</section>
+
+		<section class="about py-16 px-4">
+			<div class="container mx-auto">
+				<div class="text-2xl">
+					<h2 class="font-bold mb-4 web-dev">ABOUT ME</h2>
+				</div>
+				<p class="text-xl leading-x text-gray-600 web-dev">
+					I’m a hard-working and dedicated front-end developer and user
+					interface designer with a keen eye for detail, and a determination to
+					deliver the very highest quality. I take great pride in my work, and I
+					always try to better myself with every project I work on, I am also a
+					minimalist. who always try to find the most efficient way to do
+					anything.
+				</p>
+				<div class="mt-6">
+					<span class="mr-6 text-2xl underline hover:bg-blue-200"
+						><a href="">Github</a></span
+					>
+					<span class="underline text-2xl hover:bg-blue-200"
+						><a href="">Linkedin</a></span
+					>
+				</div>
+			</div>
+		</section>
+
+		<section class="skill px-4 pb-16">
+			<div class="container mx-auto">
+				<div class="text-2xl">
+					<h2 class="font-bold mb-4 web-dev">SKILLS</h2>
+					<div class="text-gray-600">
+						<span class="text-xl mr-4">HTML5</span>
+						<span class="text-xl mr-4">CSS3</span>
+						<span class="text-xl mr-4">Javascript</span>
+						<span class="text-xl mr-4">SASS</span>
+						<span class="text-xl mr-4">TailwindCSS</span>
+						<span class="text-xl mr-4">Bootstrap</span>
+						<span class="text-xl mr-4">React</span>
+						<span class="text-xl mr-4">Redux</span>
+						<span class="text-xl mr-4">Technical SEO</span>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="skill px-4 pb-16">
+			<div class="container mx-auto">
+				<div class="text-2xl">
+					<h2 class="font-bold mb-4 web-dev">FAMILIAR SKILLS</h2>
+					<div>
+						<span class="text-xl mr-4">Node.js</span>
+						<span class="text-xl mr-4">MongoDB</span>
+						<span class="text-xl mr-4">Express.js</span>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="skill px-4 pb-16">
+			<div class="container mx-auto">
+				<div class="text-2xl">
+					<h2 class="font-bold mb-4 web-dev">TOOLS</h2>
+					<div>
+						<span class="text-xl mr-4">Git</span>
+						<span class="text-xl mr-4">Linux</span>
+						<span class="text-xl mr-4">Wordpress</span>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="pb-28">
+			<div class="container mx-auto">
+				<h2 class="font-bold mb-4 web-dev text-2xl">PROJECTS</h2>
+				<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+					<div class="text-2xl lined-thin p-8">
+						<h2 class="text-center text-3xl">Liquid Shop</h2>
+						<p class="text-center text-xl text-gray-600 mb-4">Ordering Website</p>
+						<div class="text-center mb-3">
+							<h3 class="text-2xl">Technology Used</h3>
+							<p class="text-gray-600 text-xl">Javascript, Express, MongoDB, TailwindCSS</p>
+						</div>
+						<div class="text-center mb-3">
+							<h3 class="text-2xl">Features</h3>
+							<p class="text-gray-600 text-xl">
+								Login and Register with Email, Realtime Chat System, Admin
+								Management Panel
+							</p>
+						</div>
+						<div class="underline flex justify-between mt-8">
+							<a href="https://github.com/prashant-dayanand/ordering-app-express">Code</a>
+							<a href="http://liquidshop.codes/">Demo</a>
+						</div>
+					</div>
+
+					<div class="text-2xl lined-thin p-8">
+						<h2 class="text-center text-3xl">NETFLIX CLONE
+						</h2>
+						<p class="text-center text-xl text-gray-600 mb-4">Movie Website</p>
+						<div class="text-center mb-3">
+							<h3 class="text-2xl">Technology Used</h3>
+							<p class="text-gray-600 text-xl">Javascript, React, CSS</p>
+						</div>
+						<div class="text-center mb-3">
+							<h3 class="text-2xl">Features</h3>
+							<p class="text-gray-600 text-xl">
+								Show movie list via TMDB API and show popup trailer for every movies.
+							</p>
+						</div>
+						<div class="underline flex justify-between mt-8">
+							<a href="https://github.com/prashant-dayanand/netflix-clone">Code</a>
+							<a href="https://web-app-4ae39.web.app/">Demo</a>
+						</div>
+					</div>
+
+					<div class="text-2xl lined-thin p-8">
+						<h2 class="text-center text-3xl">REACT TEMPLATE
+						</h2>
+						<p class="text-center text-xl text-gray-600 mb-4">One page website</p>
+						<div class="text-center mb-3">
+							<h3 class="text-2xl">Technology Used</h3>
+							<p class="text-gray-600 text-xl">Javascript, React, CSS</p>
+						</div>
+						<div class="text-center mb-3">
+							<h3 class="text-2xl">Features</h3>
+							<p class="text-gray-600 text-xl">
+								Responsive React Design.
+							</p>
+						</div>
+						<div class="underline flex justify-between mt-8">
+							<a href="https://github.com/prashant-dayanand/react-design-responsive">Code</a>
+							<a href="https://react-design-responsive.vercel.app/">Demo</a>
+						</div>
+					</div>
+
+					<div class="text-2xl lined-thin p-8">
+						<h2 class="text-center text-3xl">SPOTIFY WEBSITE DESIGN CLONE
+						</h2>
+						<p class="text-center text-xl text-gray-600 mb-4">Music Website</p>
+						<div class="text-center mb-3">
+							<h3 class="text-2xl">Technology Used</h3>
+							<p class="text-gray-600 text-xl">HTML, CSS, JavaScript, SASS</p>
+						</div>
+						<div class="text-center mb-3">
+							<h3 class="text-2xl">Features</h3>
+							<p class="text-gray-600 text-xl">
+								Beautiful design with 5-6 pages.
+							</p>
+						</div>
+						<div class="underline flex justify-between mt-8">
+							<a href="https://github.com/prashant-dayanand/spotify-website-clone">Code</a>
+							<a href="https://musicofy.netlify.app/">Demo</a>
+						</div>
+					</div>
+
+
+				</div>
+			</div>
+		</section>
+	</body>
+</html>
